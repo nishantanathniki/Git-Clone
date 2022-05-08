@@ -41,7 +41,7 @@ function setup(obj){
 }
 
 function repos(sata){
-  console.table(sata)
+  //console.table(sata)
   while(idk.hasChildNodes()){
     idk.removeChild(idk.firstChild)
   }
