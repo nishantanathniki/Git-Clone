@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 1px 1px 1px gray;
+}
+nav li{
+  margin: 0.2rem;
+  list-style:none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+}
+nav img{
+  width:2rem;
+  margin: 0.3rem;
+}
+
+.username{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.8rem;
+}
+.username input{
+  width: 70%;
+  padding: 0.6rem;
+  border-top-left-radius: 0.2rem;
+  outline: none;
+  border: 1px solid gray;
+  border-bottom-left-radius: 0.2rem;
+}
+.username button{
+  padding:0.7rem;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+}
+
+.opa:active{
+  opacity: 0.6;
+}
+
+
+.error{
+  margin-left: 10%;
+  font-size: 0.6rem;
+  margin-top: 0.2rem;
+  color: red;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: bold;
+}
+
+.userdata{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.userdata img{
+  width: 50%;
+  border-radius: 50%;
+}
+.hidden{
+  visibility: hidden;
+}
+.userdata p{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2rem;
+}
+.userdata pre{
+  margin-top: 0.2rem;
+}
+.userdata #bio{
+  font-size:1.5rem;
+}
+
+.repos{
+  margin:0.6rem;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Ubuntu';
+  
+}
+.repos p{
+  margin-left: 0.4rem;
+}
+
+.repos img{
+  height: 2rem;
+  border-radius: 50%;
+}
+.repos .lang{
+  display: flex;
+  list-style:none;
+
+}
+.repos .lang li::before{
+  content: "• ";
+  color: red;
+}
+#des{
+  font-size: 0.9rem;
+}
+.idk{
+  display: flex;
+  margin: 1rem;
+
+}
+.idk:active{
+  opacity: 0.6;
+}
+
